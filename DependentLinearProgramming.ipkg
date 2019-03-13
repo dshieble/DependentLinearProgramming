@@ -1,0 +1,10 @@
+package dependent_linear_programming
+
+modules = DependentLinearProgramming.Core
+        , DependentLinearProgramming.Utilities
+        , DependentLinearProgramming.Solver
+        , DependentLinearProgramming.Test.Solver
+
+pkgs = contrib
+
+tests = DependentLinearProgramming.Test.Solver.runTest
