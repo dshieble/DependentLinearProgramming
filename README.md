@@ -1,4 +1,4 @@
-This package contains a dependently typed implementation of the Simplex algorithm for solving linear programs. The algorithm can solve linear programs in the following form:
+This package contains a dependently typed idris implementation of the Simplex algorithm for solving linear programs. The algorithm can solve linear programs in the following form:
 ```
 Maximize:
   c . x
